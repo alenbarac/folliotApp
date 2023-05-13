@@ -18,8 +18,24 @@ export default function Dashboard(props) {
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg mb-3">
                         <div className="p-6 text-gray-900">
+                            <h1 className="text-[22px] pb-3">Models</h1>
+                            <hr />
+
+                            <ul className="mt-5">
+                                <li>Member</li>
+                                <li>Workshop</li>
+                                <li>WorkshopAgeGroup</li>
+                                <li>WorkshopGroup</li>
+                                <li>WorkshopVenue</li>
+                                <li>Payment</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg mb-3">
+                        <div className="p-6 text-gray-900">
                             <h1 className="text-[22px] pb-3">Features List</h1>
                             <hr />
+
                             <ul className="mt-5">
                                 <li>Workshops CRUD</li>
                                 <li>Teachers CRUD</li>
